@@ -9,6 +9,3 @@ total_billwithtip=float(total_bill)+total_tip
 tip_individual=total_billwithtip/int(total_num_of_people)
 final_amount="{:.2f}".format(tip_individual)
 print(f"Each person should pay: ₹{final_amount}")
-
-## if round function doesn't work properly then use the following code
-# "{:.2f}".format(tip_individual)
